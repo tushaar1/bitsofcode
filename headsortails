@@ -1,0 +1,20 @@
+# heads or tails
+# you choose what it will be
+# computer choose what it will be
+# a coin is flipped and the answer comes out
+import random
+print("Heads or Tails")
+hrt = input()
+computer = random.randint(0,1)
+if computer == 0:
+    computer = 'Heads'
+else:
+    computer == 'Tails'
+answer = random.randint(0,1)
+if answer == 0:
+    answer = 'Heads'
+else:
+    answer == 'Tails'
+print(f'You choose {hrt}')
+print(f'Computer choose {computer}')
+print(f'The coin is flipped and it came out to {answer}')
