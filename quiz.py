@@ -1,3 +1,9 @@
+import pygame
+from pygame import mixer  # Load the popular external library
+
+mixer.init()
+mixer.music.load('Blueface - Bleed It (Dir. by ColeBennett).mp3')
+mixer.music.play()
 
 print("Hi, welcome to the meat show!")
 print("This is a quiz about the best rapper, Blueface")
